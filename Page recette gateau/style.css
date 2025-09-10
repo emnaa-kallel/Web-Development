@@ -1,0 +1,169 @@
+#bloc_page {
+  width: 900px;
+  background-color: #fcebf4;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+header {
+  background: url(separateur.png) repeat-x bottom;
+  display: flex;
+  flex-direction: row;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-weight: lighter;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+nav {
+  position: relative;
+  top: 100px;
+  right: 315px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 900px;
+  padding: 7px;
+}
+header img {
+  height: 70px;
+  width: 70px;
+}
+#banniere_image {
+  background: url(banniere.jpg);
+
+  height: 158px;
+  width: 886px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px 2px grey;
+  position: relative;
+  margin-top: 10px;
+}
+.bouton_rouge {
+  background: url(fond_degraderouge.png);
+  border-radius: 4px;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  left: 780px;
+  top: 10px;
+}
+#banniere_description {
+  background-color: rgba(24, 24, 24, 0.8);
+  box-shadow: 2px 2px 2px 2px black;
+  width: 888px;
+  height: 33px;
+  border-radius: 7px;
+  position: relative;
+  top: 160px;
+  color: white;
+  padding-top: 17px;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+aside {
+  position: relative;
+  background-color: rgb(99, 99, 99);
+  border-radius: 7px;
+  margin: 8px;
+  color: white;
+  padding: 0px;
+  width: 490px;
+}
+aside h1 {
+  margin-left: 35px;
+}
+aside p {
+  margin-left: 15px;
+  padding: 7px;
+}
+
+aside p img {
+  padding: 0px;
+  margin-left: 10px;
+}
+
+#photo {
+  margin-right: 30px;
+}
+#photo img {
+  border: 2px solid black;
+  height: 230px;
+  width: 230px;
+}
+.ico_categorie {
+  padding: 7px;
+}
+article p {
+  padding: 8px;
+}
+article {
+  width: 1035px;
+}
+article h1 img{
+    position: relative;
+    top: 20px;
+}
+#fleche_bulle {
+  position: absolute;
+  right: 301px;
+  top: 130px;
+}
+
+footer {
+  background: url(separateur.png) repeat-x top;
+  display: flex;
+  padding-top: 10px;
+}
+footer div {
+  padding: 8px;
+}
+#mes_realisation img {
+  height: 63px;
+  width: 63px;
+  margin: 3px;
+  border: 2px solid black;
+}
+footer div ul {
+  list-style-type: none;
+  list-style-image: url(ico_liensexterne.png);
+  margin-left: 70px;
+}
+#listes_recettes {
+  margin-top: -20px;
+}
+footer div a {
+  text-decoration: none;
+  color: brown;
+  font-size: small;
+}
+footer h1 {
+  font-size: 20px;
+  font-weight: 30px;
+  padding: 10px;
+  font-weight: lighter;
+}
